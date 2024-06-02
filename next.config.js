@@ -5,8 +5,18 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'img.clerk.com',
         port: '',        
-      },],
+      },{
+        protocol: 'https',
+        hostname: 'via.placeholder.com',
+        port: '',        
+      },{
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        port: '',        
+      }],
   },
 };
 
 module.exports = nextConfig;
+
+

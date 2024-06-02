@@ -8,7 +8,7 @@ interface Card {
 export function LearnMore({ cards }: { cards: Card[] }) {
   return (
     <div className="relative bg-white" id="features">
-      <div className="grid grid-cols-4 gap-8 max-w-[75rem] mx-auto w-full pt-16 pb-24">
+      <div className="grid grid-border-black grid-cols-4 gap-8 max-w-[75rem] mx-auto w-full pt-16 pb-24">
         <div>
           <span className="text-[0.8125rem]/5 text-[#6C47FF] font-medium">
             What's next

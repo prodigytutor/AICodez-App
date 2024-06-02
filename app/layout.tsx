@@ -1,4 +1,3 @@
-import { ClerkProvider } from '@clerk/nextjs';
 import './globals.css';
 import Script from 'next/script';
 import { Metadata } from 'next';
@@ -6,6 +5,15 @@ import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 import { LearnMore } from './components/learn-more';
 import { Footer } from './components/footer';
+
+import { 
+  ClerkProvider,
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  UserButton,
+} from "@clerk/nextjs";
+
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://clerk-next-app.vercel.app/'),
@@ -32,7 +40,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           },
         }}
       >
-        <body className={`min-h-screen flex flex-col antialiased`}>{children}</body>
+        <body className={`min-h-screen flex flex-col antialiased`}>
+          {children}
+        </body>
       </ClerkProvider>
 
       <Script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-core.min.js" />

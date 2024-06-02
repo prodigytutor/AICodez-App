@@ -23,23 +23,23 @@ export const CARDS = [
 
 export const DASHBOARD_CARDS = [
   {
-    title: "Authenticate requests with JWT's",
+    title: "Dashboard Card #1",
     description:
       "Clerk empowers you to authenticate same and cross origin requests using a Clerk generated JWT",
-    href: "https://clerk.com/docs/backend-requests/overview?utm_source=vercel-template&utm_medium=partner&utm_term=JWT",
+    href: "https://nexai.network",
     linkText: "Request authentication",
   },
   {
-    title: "Build an onboarding flow",
+    title: "Dashboard Card #2",
     description: `Leverage customizable session tokens, public metadata, and Middleware to create a custom onboarding experience.`,
-    href: "https://clerk.com/docs/guides/add-onboarding-flow?utm_source=vercel-template&utm_medium=partner&utm_term=onboarding",
+    href: "https://nexai.network",
     linkText: "Onboarding flow",
   },
   {
-    title: "Deploy to Production",
+    title: "Dashboard Card #3",
     description:
       "Production instances are meant to support high volumes of traffic and by default, have a more strict security posture.",
-    href: "https://clerk.com/docs/deployments/overview?utm_source=vercel-template&utm_medium=partner&utm_term=deploy-to-prod",
+    href: "https://nexai.network",
     linkText: "Production",
   },
 ];
